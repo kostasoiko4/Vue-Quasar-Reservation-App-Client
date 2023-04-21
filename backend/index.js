@@ -21,7 +21,7 @@ const serviceAccount = require('./serviceAccountKey.json')
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    storageBucket: "coffeehack-653b9.appspot.com"
+    storageBucket: //bucketKEY
   })
 
 const db = admin.firestore()
